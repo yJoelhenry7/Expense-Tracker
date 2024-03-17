@@ -1,9 +1,8 @@
+import Images from '../assets/Images'
 
 const Header = () => {
   return (
-    <h2>
-       Spend Sync
-    </h2>
+      <img src={Images.logo} style={{width: '14rem'}} alt="" />
   )
 }
 
