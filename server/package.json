@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for spendsync",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yJoelhenry7/SpendSync.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Joel Henry Yellamelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yJoelhenry7/SpendSync/issues"
+  },
+  "homepage": "https://github.com/yJoelhenry7/SpendSync#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
