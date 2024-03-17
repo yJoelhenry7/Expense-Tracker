@@ -1,4 +1,5 @@
-import React,{createContext,useReducer} from "react";
+/* eslint-disable react/prop-types */
+import {createContext,useReducer} from "react";
 import AppReducer from './AppReducer'
 
 // Intial State
@@ -10,7 +11,7 @@ const initialState ={
 export const GlobalContext = createContext(initialState);
 
 // Provider component
-export const GlobalProvider = ({children}) =>{
+export const GlobalProvider = ({ children }) =>{
   const [state,dispatch] = useReducer(AppReducer,initialState);
 
   // Actions

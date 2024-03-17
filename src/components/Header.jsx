@@ -1,9 +1,8 @@
-import React from 'react'
 
 const Header = () => {
   return (
     <h2>
-       Expense Tracker
+       Spend Sync
     </h2>
   )
 }
